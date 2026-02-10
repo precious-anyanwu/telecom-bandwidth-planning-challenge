@@ -200,7 +200,7 @@ Support for redundancy scenarios
 🗺️ Network Topology
 Aggregation & Redundancy Design
 
-![Aggregation Topology](assets/images/challenge2/challenge2-topology.jpeg)
+![Traffic Calculations](assets/images/challenge2/challenge2-calculations.png)
 
 Solid lines → Core transmission paths
 
@@ -208,7 +208,7 @@ Dotted lines → Redundant protection paths
 
 📝 Calculation Evidence
 
-![Traffic Calculations](assets/images/challenge2/challenge2-calculations.png)
+![Aggregation Topology](assets/images/challenge2/challenge2-topology.jpeg)
 
 Handwritten calculations were used to:
 
