@@ -138,6 +138,27 @@ Example:
 
 Utilization calculations ensured all links remained within safe operational thresholds.
 
+## 📊 Link Utilization Calculation
+
+Transmission links were engineered to ensure that utilization does not exceed **70% during Busy Hour**, in line with standard telecom planning practices.
+
+Link utilization was calculated using the formula:
+
+Utilization (%) = (Traffic Load / Total Uplink Capacity) × 100
+
+### Example Calculation
+
+If a hub has a Busy Hour traffic load of **800 Mbps** and is provisioned with **2 × 512 Mbps PLA links**:
+
+Total Uplink Capacity = 1024 Mbps
+
+Utilization = (800 / 1024) × 100 ≈ **78%**
+
+In this case, additional PLA capacity would be required to bring utilization within acceptable limits.
+
+All final uplink designs in this project were dimensioned to operate at **≤ 70% utilization** under Busy Hour conditions.
+
+
 🔁 Redundancy & Protection Design
 
 To meet a 99.95% availability target, the network was designed with inter-hub protection paths:
@@ -179,13 +200,15 @@ Support for redundancy scenarios
 🗺️ Network Topology
 Aggregation & Redundancy Design
 
-Legend
+![Aggregation Topology](assets/images/challenge2/challenge2-topology.png)
 
 Solid lines → Core transmission paths
 
 Dotted lines → Redundant protection paths
 
 📝 Calculation Evidence
+
+![Traffic Calculations](assets/images/challenge2/challenge2-calculations.png)
 
 Handwritten calculations were used to:
 
