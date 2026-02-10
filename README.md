@@ -208,7 +208,7 @@ Dotted lines → Redundant protection paths
 
 📝 Calculation Evidence
 
-![Traffic Calculations](assets/images/challenge2/challenge2-calculations.jpeg)
+![Traffic Calculations](assets/images/challenge2/challenge2-calculations.png)
 
 Handwritten calculations were used to:
 
